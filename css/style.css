@@ -1,23 +1,66 @@
+li {
+  display: inline-block;
+}
+:root {
+  --primary-text-color: #757575;
+  --selection-color: #2196f3;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+}
+
+/* логотип */
+
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--selection-color);
 }
-.main-nav-link {
-  color: #212121;
+
+/* Основная навигация */
+
+.main-nav .link {
+  color: var(--title-text-color);
 }
-.main-nav-link:hover,
-.main-nav-link:focus {
-  color: #2196f3;
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--selection-color);
 }
 .contacts-link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196f3;
+  color: var(--selection-color);
 }
-.decisions {
-  color: #ffffff;
+.main-nav .link.current {
+  color: var(--selection-color);
 }
+.main-header {
+  color: var(--primary-white-color);
+}
+.second-header {
+  color: var(--title-text-color);
+  font-weight: bold;
+}
+/* Кнопки*/
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--selection-color);
+  font-size: 16px;
+  font-weight: 900;
+  display: inline-block;
+  padding: 12px 24px;
+}
+/*Характеристики*/
+.attr .item .pic {
+  background: #f5f4fa;
+  padding: 12px 24px;
+}
+.attr .item .header {
+  color: var(--title-text-color);
+}
+.attr .item .text {
+  color: var(--primary-text-color);
+}
+/*Работы*/
