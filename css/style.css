@@ -1,0 +1,23 @@
+.logo {
+  color: #212121;
+}
+.logo-web {
+  color: #2196f3;
+}
+.main-nav-link {
+  color: #212121;
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+  color: #2196f3;
+}
+.contacts-link {
+  color: #757575;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+.decisions {
+  color: #ffffff;
+}
