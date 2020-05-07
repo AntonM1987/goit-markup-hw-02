@@ -43,6 +43,10 @@ li {
   color: var(--title-text-color);
   font-weight: bold;
 }
+.hero-img {
+  width: 1600px;
+  height: 600px;
+}
 /* Кнопки*/
 .button {
   color: var(--primary-white-color);
@@ -53,14 +57,52 @@ li {
   padding: 12px 24px;
 }
 /*Характеристики*/
-.attr .item .pic {
+.attr-list .item .pic {
   background: #f5f4fa;
   padding: 12px 24px;
 }
-.attr .item .header {
+.attr-list .item .header {
   color: var(--title-text-color);
 }
-.attr .item .text {
+.attr-list .item .text {
   color: var(--primary-text-color);
 }
 /*Работы*/
+.work-list .header {
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}
+.team-section {
+  background: #f5f4fa;
+}
+/*Клиенты*/
+.clients-list .item {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  color: var(--primary-white-color);
+}
+.address {
+  color: var(--primary-white-color);
+}
+.action {
+  color: var(--primary-white-color);
+}
+.madeby {
+  color: var(--primary-text-color);
+}
+/*Портфолио*/
+.products-list .item {
+  background: #f5f4fa;
+  padding: 12px 24px;
+}
+.products-list .item:hover,
+.products-list .item:focus {
+  background: var(--selection-color);
+  color: var(--primary-white-color);
+}
