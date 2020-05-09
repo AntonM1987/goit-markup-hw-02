@@ -6,12 +6,27 @@ li {
   --selection-color: #2196f3;
   --title-text-color: #212121;
   --primary-white-color: #ffffff;
+  --background-color: #f5f4fa;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+
+  background-color: var(--primary-white-color);
 }
 
-/* логотип */
+/* Логотип */
 
 .logo {
   color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .logo-web {
   color: var(--selection-color);
@@ -21,27 +36,46 @@ li {
 
 .main-nav .link {
   color: var(--title-text-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .main-nav .link:hover,
 .main-nav .link:focus {
   color: var(--selection-color);
 }
+.main-nav .link.current {
+  color: var(--selection-color);
+}
+/* Контакты*/
+
 .contacts-link {
   color: var(--primary-text-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--selection-color);
 }
-.main-nav .link.current {
-  color: var(--selection-color);
-}
 .main-header {
   color: var(--primary-white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 .second-header {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
 }
 .hero-img {
   width: 1600px;
@@ -53,56 +87,132 @@ li {
   background-color: var(--selection-color);
   font-size: 16px;
   font-weight: 900;
+  letter-spacing: 0.06em;
   display: inline-block;
   padding: 12px 24px;
+  text-decoration: none;
 }
 /*Характеристики*/
+.attributes {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .attr-list .item .pic {
-  background: #f5f4fa;
-  padding: 12px 24px;
+  background: var(--background-color);
+  padding: 12px 48px;
 }
 .attr-list .item .header {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
 }
 .attr-list .item .text {
   color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 /*Работы*/
 .work-list .header {
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
 }
+
+/* Команда*/
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-list .header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .team-section {
-  background: #f5f4fa;
+  background: var(--background-color);
 }
 /*Клиенты*/
 .clients-list .item {
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
+
+/*Футер*/
+
 .footer {
   background: #2f303a;
 }
 .footer-logo {
   color: var(--primary-white-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
 }
+
 .address {
   color: var(--primary-white-color);
 }
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
 .action {
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .madeby {
   color: var(--primary-text-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 /*Портфолио*/
-.products-list .item {
-  background: #f5f4fa;
+.filter .item {
+  background: var(--background-color);
   padding: 12px 24px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
 }
-.products-list .item:hover,
-.products-list .item:focus {
+.filter .item:hover,
+.filter .item:focus {
   background: var(--selection-color);
   color: var(--primary-white-color);
+}
+.project .link {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
