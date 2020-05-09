@@ -72,6 +72,7 @@ body {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .second-header {
   color: var(--title-text-color);
@@ -209,10 +210,24 @@ body {
   background: var(--selection-color);
   color: var(--primary-white-color);
 }
-.project .link {
-  font-size: 18px;
+.projects-list .link {
+  text-decoration: none;
+}
+.link .name {
+  color: var(--title-text-color);
   font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
+}
+.link .meaning {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.link .text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
 }
