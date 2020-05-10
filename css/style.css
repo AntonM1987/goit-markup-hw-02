@@ -200,6 +200,10 @@ body {
   text-align: center;
 }
 /*Портфолио*/
+.filter {
+  text-align: center;
+}
+
 .filter .item {
   background: var(--background-color);
   padding: 12px 24px;
