@@ -157,6 +157,10 @@ body {
   background: var(--background-color);
 }
 /*Клиенты*/
+.clients-section {
+  text-align: center;
+}
+
 .clients-list .item {
   border: 1px solid #afb1b8;
 }
