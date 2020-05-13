@@ -7,23 +7,29 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Web Studio</title>
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span>Studio
-        </a>
-        <ul class="main-nav list">
-          <li><a href="./index.html" class="link current"> Студия</a></li>
-          <li><a href="./portfolio.html" class="link"> Портфолио</a></li>
-          <li><a href="" class="link"> Контакты</a></li>
-        </ul>
-      </nav>
-      <ul>
+    <header class="main-header">
+      <div class="nav">
+        <nav>
+          <a class="logo" href="./index.html">
+            <span class="logo-web">Web</span>Studio
+          </a>
+          <ul class="main-nav">
+            <li><a href="./index.html" class="link current"> Студия</a></li>
+            <li><a href="./portfolio.html" class="link"> Портфолио</a></li>
+            <li><a href="" class="link"> Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="contacts-list">
         <li class="contacts">
           <a href="mailto:info@devstudio.com" class="contacts-link">
             <img src="./images/envelope.svg" alt="Конверт" />
@@ -39,8 +45,8 @@
     </header>
     <main>
       <div></div>
-      <section>
-        <h1 class="main-header">
+      <section class="hero">
+        <h1 class="hero-header">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
@@ -103,7 +109,7 @@
       <section class="team-section">
         <h2 class="team">Наша команда</h2>
         <ul class="team-list" lang="en">
-          <li>
+          <li class="worker">
             <h3 class="header">John Smith</h3>
             <p class="text">Product Designer</p>
             <img class="pic" src="./images/team/john.png" alt="John" />
@@ -130,7 +136,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="worker">
             <h3 class="header">Marta Stewart</h3>
             <p class="text">Frontend Developer</p>
             <img src="./images/team/marta.png" alt="Marta" />
@@ -157,7 +163,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="worker">
             <h3 class="header">Robert Jakis</h3>
             <p class="text">Marketing</p>
             <img src="./images/team/robert.png" alt="Robert" />
@@ -184,7 +190,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="worker">
             <h3 class="header">Martin Doe</h3>
             <p class="text">UI Designer</p>
             <img src="./images/team/martin.png" alt="Martin" />
